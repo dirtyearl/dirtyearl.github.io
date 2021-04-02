@@ -4,6 +4,8 @@
 AUTHOR = 'Earl Davis'
 SITENAME = 'Earl Davis - Economics and Data Science'
 SITEURL = 'https://dirtyearl.github.io/'
+GITHUB_URL = 'http://github.com/dirtyearl/'
+
 
 PATH = 'content'
 
@@ -22,13 +24,13 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+         ('DXC Technology', 'https://www.dxc.technology/'),)
 
 # Social widget
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/earldavis/'),
-          ('Another social link', '#'),)
+          ('GitHub', 'https://github.com/dirtyearl'),)
 
 DEFAULT_PAGINATION = 10
-
+THEME = 'Flex'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
